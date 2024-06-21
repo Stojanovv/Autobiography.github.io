@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background:black;
+    color: #fff;
+    padding: 45px 0px ;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-right: -500px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    }
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.container > img{
+    margin-left: -10px;
+    position: absolute;
+    margin-top: -50px;
+}
+.za_mene >img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 24px;
+    margin-right: 263px;
+}
+.za_mene{
+    background-color: lightgray;
+    height: 550px;
+    margin-top: -39px;
+}
+.za_mene>p{
+    transform: translate(191px, 195px);
+    font-size: 40px;
+    text-shadow: -2px 3px black;
+    font-weight: bold;
+}
+.aboutme>h1{
+    text-align: center;
+}
+.aboutme>p{
+    width: 71%;
+    margin-left: 240px;
+}
+.travel>h1{
+    text-align: center;
+}
+.travel>p{
+    width: 71%;
+    margin-left: 240px;
+}
+.travel img{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    margin-left: 240px;
+    padding-bottom: 5px;
+}
+body > div.travel > p:nth-child(8){
+    width: 48%;
+    margin-left: 560px;
+    position: absolute;
+    margin-top: -1068px;
+}
+body > div.travel > p:nth-child(7){
+    width: 48%;
+    margin-left: 560px;
+    position: absolute;
+    margin-top: -1465px;
+}
+body > div.travel > p:nth-child(9){
+    width: 48%;
+    margin-left: 560px;
+    position: absolute;
+    margin-top: -665px;
+}
+body > div.travel > p:nth-child(10){
+    width: 48%;
+    margin-left: 560px;
+    position: absolute;
+    margin-top: -237px;
+}
+.travel{
+    background-color: lightgray;
+}
+.hobies>h1{
+    text-align: center;
+}
+.rakomet>p{
+    width: 350px;
+    color: white;
+    margin-left: 20px;
+}
+.rakomet{
+    background-color: black;
+    margin-left: 242px;
+    width: 400px;
+}
+.comp>p{
+    width: 600px;
+    color: white;
+    margin-left: 20px;
+}
+.comp{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: -643px;
+    background-color: black;
+}
+.hobies{
+    background-color: lightgray;
+    margin-top: -20px;
+}
+.favoritefood>h1{
+   text-align: center;
+}
+.favoritefood>p{
+    width: 71%;
+    margin-left: 245px;
+}
+.food>img{
+    padding:0px 2px 0px 2px;
+    margin-left: 230px;
+}
+.favoritefood{
+    background-color: lightgray;
+    margin-top: -20px;
+}
+.contact{
+    background-color: black;
+}
+.contact>img{
+    margin-left: 180px;
+}
+.mail>ul{
+    display: flex;
+    margin-left: 500px;
+    margin-top: -70px;
+    position: absolute;
+}
+.mail>ul>li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 30px;
+
+}
+.mail>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.mail>ul>li>a:hover{
+    color: lightblue;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.contact h1{
+    text-align: center;
+    color: white;
+}
+a:hover{
+    color: lightblue;
+}
+p{
+    text-align: justify;
+}
